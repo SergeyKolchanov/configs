@@ -13,5 +13,6 @@ filetype plugin indent on
 set number
 set tabstop=4
 set splitbelow
+set expandtab
 
 map <C-n> :NERDTreeToggle<CR>
