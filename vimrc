@@ -4,6 +4,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'kien/ctrlp.vim'
 Bundle 'vim-airline/vim-airline'
 Bundle 'The-NERD-tree'
 Bundle 'rust-lang/rust.vim'
