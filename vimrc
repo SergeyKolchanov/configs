@@ -8,6 +8,7 @@ Plugin 'kien/ctrlp.vim'
 Bundle 'vim-airline/vim-airline'
 Bundle 'The-NERD-tree'
 Bundle 'rust-lang/rust.vim'
+Bundle 'peterhoeg/vim-qml'
 call vundle#end()
 filetype plugin indent on
 
