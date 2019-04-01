@@ -20,3 +20,5 @@ set splitbelow
 set expandtab
 
 map <C-n> :NERDTreeToggle<CR>
+
+color vimbrant
