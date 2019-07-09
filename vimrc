@@ -5,12 +5,14 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
-Plugin 'racer-rust/vim-racer'
+Plugin 'ebfe/vim-racer'
 Bundle 'vim-airline/vim-airline'
 Bundle 'edkolev/tmuxline.vim'
 Bundle 'The-NERD-tree'
 Bundle 'rust-lang/rust.vim'
 Bundle 'peterhoeg/vim-qml'
+Bundle 'prabirshrestha/async.vim'
+Bundle 'prabirshrestha/vim-lsp'
 call vundle#end()
 filetype plugin indent on
 
