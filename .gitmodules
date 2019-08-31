@@ -1,6 +1,5 @@
-[submodule "bundle/vim-qml"]
-	path = bundle/vim-qml
-	url = https://github.com/peterhoeg/vim-qml.git
-[submodule "tmux-resurrect"]
-	path = tmux-resurrect
-	url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule "bundle/Vundle.vim"]
+    path = bundle/Vundle.vim
+    url = https://github.com/VundleVim/Vundle.vim.git
+
+
