@@ -41,4 +41,5 @@ endfunc
 nnoremap <F8> :call NumberToggle()<cr>
 
 map <C-n> :NERDTreeToggle<CR>
-color zenburn
+color dante
+let g:airline_theme='minimalist'
