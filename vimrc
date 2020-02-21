@@ -8,7 +8,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'ebfe/vim-racer'
 Bundle 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Bundle 'edkolev/tmuxline.vim'
 Bundle 'The-NERD-tree'
 Bundle 'rust-lang/rust.vim'
 Bundle 'peterhoeg/vim-qml'
@@ -28,6 +27,7 @@ set hidden
 
 let g:racer_cmd = "/home/sk/.cargo/bin/racer"
 let g:racer_experiment_completer = 1
+au FileType rust nmap gx <Plug>(rust-def-vertical)
 
 """ Toggle relative/absolute numbering
 function! NumberToggle()
