@@ -13,6 +13,7 @@ Bundle 'rust-lang/rust.vim'
 Bundle 'peterhoeg/vim-qml'
 Bundle 'prabirshrestha/async.vim'
 Bundle 'prabirshrestha/vim-lsp'
+Plugin 'jpalardy/spacehi.vim'
 call vundle#end()
 filetype plugin indent on
 
